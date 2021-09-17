@@ -1,0 +1,74 @@
+body {
+    
+    background: linear-gradient(-45deg, #EE7752,#E73C7E,#23A6D5,#23D5AB);
+    /*background-attachment: fixed;*/
+    background-size:400% 400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+}
+
+.boton{
+    background-image: linear-gradient(black, black);
+    color: white;
+}
+
+.divTitle{
+    text-align: -webkit-center !important;
+}
+
+.divStyle {
+    
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+img{
+    width: 50%;
+    height: 50%;
+
+}
+.divForm {
+    
+    border-radius: 2.5px;
+    padding: 20px;
+    text-align: center;
+    background-color:  #969696;
+    color: white;
+    background: linear-gradient(-40deg, #23D5AB,#23A6D5,#E73C7E,#EE7752);
+    
+}
+
+header {
+
+    border-radius: 2.5px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    width: 50%;
+}
+
+button {
+    margin: 10px;
+    background-image: linear-gradient(#dbdbdb, #f9f9fa);
+}
+.headerText{
+    opacity: 100% !important;
+}
+.table-dark {
+    color: darkblue !important;
+    background-color:white !important;
+    opacity: 40% !important;
+}
+
+
+@keyframes change{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
